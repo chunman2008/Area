@@ -14,17 +14,14 @@ namespace Area {
     *  calculate the area of rectangle and show it 
     */
     //% blockId="ledOfRectangle" block="show area of rectangle length %length|width %width"
-    //% blockGap=5 weight=0
+    //% blockGap=4 weight=0
     export function ledOfRectangle(length: number, width:number): void {
         basic.showNumber(areaOfRectangle(length*width))
     }
-	
 	 //% blockId="ledOfTriangle " block="show area of rectangle base %base|height %height"
-    //% blockGap=5 weight=0
+    //% blockGap=3 weight=3
 	export function LEDofTriangle(base:number,height:number):void{
-		basic.showNumber(0.5*base*height) 
-		
-		
+		basic.showNumber(0.5*base*height)
 	}
 	
 	//% block 
