@@ -1,14 +1,14 @@
 {
     "name": "Area",
     "version": "0.0.1",
-    "description": "calculate area ",
+    "description": "calculate area",
     "license": "MIT",
     "dependencies": {
         "core": "*"
     },
     "files": [
         "README.md",
-        "main.ts",
+        "main.ts"
 
     ],
     "public": true
