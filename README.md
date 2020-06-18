@@ -12,5 +12,5 @@ ry
 (The metadata above is needed for package search.)
 
 ```package
-Area=github:chunman2008/Area
+Area=github:chunman2008/pxt-Area
 ```
