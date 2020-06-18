@@ -19,9 +19,10 @@ namespace Area {
         basic.showNumber(areaOfRectangle(length*width))
     }
 	
-	
-	export function LEDofTriangles(base:number,heigh:number):void{
-		basic.showNumber(0.5*base*heigh) 
+	 //% blockId="ledOfTriangle " block="show area of rectangle base %base|height %height"
+    //% blockGap=5 weight=0
+	export function LEDofTriangle(base:number,height:number):void{
+		basic.showNumber(0.5*base*height) 
 		
 		
 	}
